@@ -1,0 +1,31 @@
+<variant
+    name="noAnalyticsRelease"
+    package="dev.octoshrimpy.quik.data"
+    minSdkVersion="23"
+    targetSdkVersion="33"
+    mergedManifest="build/intermediates/merged_manifest/noAnalyticsRelease/AndroidManifest.xml"
+    manifestMergeReport="build/outputs/logs/manifest-merger-noAnalytics-release-report.txt"
+    proguardFiles="build/intermediates/default_proguard_files/global/proguard-android.txt-8.2.2"
+    partialResultsDir="build/intermediates/lint_vital_partial_results/noAnalyticsRelease/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/noAnalytics/java:src/release/java:src/noAnalyticsRelease/java:src/main/kotlin:src/noAnalytics/kotlin:src/release/kotlin:src/noAnalyticsRelease/kotlin"
+        resDirectories="src/main/res:src/noAnalytics/res:src/release/res:src/noAnalyticsRelease/res"
+        assetsDirectories="src/main/assets:src/noAnalytics/assets:src/release/assets:src/noAnalyticsRelease/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="build/intermediates/javac/noAnalyticsRelease/classes:build/tmp/kotlin-classes/noAnalyticsRelease:build/tmp/kapt3/classes/noAnalyticsRelease:build/intermediates/compile_r_class_jar/noAnalyticsRelease/R.jar"
+      type="MAIN"
+      applicationId="dev.octoshrimpy.quik.data"
+      generatedSourceFolders="build/generated/source/kapt/noAnalyticsRelease:build/generated/ap_generated_sources/noAnalyticsRelease/out:build/generated/source/buildConfig/noAnalytics/release"
+      generatedResourceFolders="build/generated/res/resValues/noAnalytics/release"
+      desugaredMethodsFiles="/Users/sergeylaptiy/.gradle/caches/transforms-3/87eb00446f47cb84989b580f59e7293c/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

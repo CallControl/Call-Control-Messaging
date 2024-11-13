@@ -1,0 +1,4 @@
+#Mon Nov 11 17:42:37 EET 2024
+base.0=/Users/sergeylaptiy/Develop/cc-messaging/presentation/build/intermediates/dex/noAnalyticsRelease/minifyNoAnalyticsReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

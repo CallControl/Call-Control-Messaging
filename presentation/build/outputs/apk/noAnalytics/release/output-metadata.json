@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "call.control.block.messaging",
+  "variantName": "noAnalyticsRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 2225,
+      "versionName": "1.0.0",
+      "outputFile": "presentation-noAnalytics-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

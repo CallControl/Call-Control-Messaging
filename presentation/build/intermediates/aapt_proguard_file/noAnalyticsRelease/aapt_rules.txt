@@ -1,0 +1,165 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.core.content.FileProvider { <init>(); }
+-keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(); }
+-keep class com.android.mms.transaction.TransactionService { <init>(); }
+-keep class com.klinker.android.send_message.MmsFileProvider { <init>(); }
+-keep class dev.octoshrimpy.quik.common.QKApplication { <init>(); }
+-keep class dev.octoshrimpy.quik.common.util.QkChooserTargetService { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.backup.BackupActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.backup.RestoreBackupService { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.blocking.BlockingActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.compose.ComposeActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.contacts.ContactsActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.conversationinfo.ConversationInfoActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.gallery.GalleryActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.main.MainActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.notificationprefs.NotificationPrefsActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.plus.PlusActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.qkreply.QkReplyActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.scheduled.ScheduledActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.settings.SettingsActivity { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.widget.WidgetProvider { <init>(); }
+-keep class dev.octoshrimpy.quik.feature.widget.WidgetService { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.BlockThreadReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.BootReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.DefaultSmsChangedReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.DeleteMessagesReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.MarkArchivedReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.MarkReadReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.MarkSeenReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.MmsReceivedReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.MmsReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.MmsSentReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.MmsUpdatedReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.NightModeReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.RemoteMessagingReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.SendScheduledMessageReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.SendSmsReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.SmsDeliveredReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.SmsProviderChangedReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.SmsReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.receiver.SmsSentReceiver { <init>(); }
+-keep class dev.octoshrimpy.quik.service.AutoDeleteService { <init>(); }
+-keep class dev.octoshrimpy.quik.service.HeadlessSmsSendService { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatRadioButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Group { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.drawerlayout.widget.DrawerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.emoji.widget.EmojiExtractEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.emoji.widget.ExtractButtonCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.viewpager.widget.ViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.viewpager2.widget.ViewPager2 { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.bluelinelabs.conductor.ChangeHandlerFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.github.chrisbanes.photoview.PhotoView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.AspectRatioFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.DefaultTimeBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.PlayerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.SubtitleView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.TrackSelectionView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.flexbox.FlexboxLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.CollapsingToolbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.floatingactionbutton.FloatingActionButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.common.widget.AvatarView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.common.widget.BubbleImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.common.widget.GroupAvatarView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.common.widget.PagerTitleView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.common.widget.PreferenceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.common.widget.QkEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.common.widget.QkSwitch { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.common.widget.QkTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.common.widget.RadioPreferenceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.common.widget.SquareImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.common.widget.TightTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.feature.blocking.manager.BlockingManagerPreferenceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dev.octoshrimpy.quik.feature.themepicker.HSVPickerView { <init>(android.content.Context, android.util.AttributeSet); }
+

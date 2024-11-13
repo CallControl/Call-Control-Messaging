@@ -1,0 +1,837 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:244:9-252:20
+	android:grantUriPermissions
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:248:13-47
+	android:authorities
+		INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:246:13-64
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:247:13-37
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:245:13-62
+manifest
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:20:1-262:12
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:20:1-262:12
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:20:1-262:12
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:20:1-262:12
+MERGED from [:data] /Users/sergeylaptiy/Develop/cc-messaging/data/build/intermediates/merged_manifest/noAnalyticsRelease/AndroidManifest.xml:20:1-27:12
+MERGED from [:domain] /Users/sergeylaptiy/Develop/cc-messaging/domain/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:1-25:12
+MERGED from [io.realm:realm-android-library:10.15.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/7afb444d00884084ee4b0189895e54b9/transformed/jetified-realm-android-library-10.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/ee53f81f25f807aec7ddd7350b64fca0/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.emoji:emoji-appcompat:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/71afe01a4a2f0865cb3ebceab8331b5f/transformed/emoji-appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/8a223b0d59d17563721c1ba9db5654f2/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-android-support:2.18] /Users/sergeylaptiy/.gradle/caches/transforms-3/b8431c2176790687504f9cebb52db6a6/transformed/jetified-dagger-android-support-2.18/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.chrisbanes:photoview:2.1.4] /Users/sergeylaptiy/.gradle/caches/transforms-3/ffc9f17b9e7879bbd46936ee6ba62dc9/transformed/jetified-photoview-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/6a36bcd80c98ebddec88fd44028f3c0f/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sergeylaptiy/.gradle/caches/transforms-3/e98395bd9ce9877dbee5aabca74db865/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [:common] /Users/sergeylaptiy/Develop/cc-messaging/common/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:1-25:12
+MERGED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/f3295e3e84273c7c1d75651565f55d6e/transformed/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta05] /Users/sergeylaptiy/.gradle/caches/transforms-3/a07d3c98a0d151be1fe8a1b4b93134a4/transformed/jetified-viewpager2-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [com.bluelinelabs:conductor-archlifecycle:2.1.5] /Users/sergeylaptiy/.gradle/caches/transforms-3/f7c36c419f4c3aa233e72ca06ab62f25/transformed/jetified-conductor-archlifecycle-2.1.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.bluelinelabs:conductor:2.1.5] /Users/sergeylaptiy/.gradle/caches/transforms-3/fbd3c2a2e6f8d7a42bab89501fff7b30/transformed/jetified-conductor-2.1.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/b083dded1d1aa8f30081a35c0b0bac40/transformed/jetified-glide-4.8.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.google.ExoPlayer:exoplayer-ui:r2.9.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4ca7aaa9ea1d02dfe7d8f9f6377b1393/transformed/jetified-exoplayer-ui-r2.9.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.google.ExoPlayer:exoplayer-core:r2.9.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/56f671fef9fe701d39e48a824e794a85/transformed/jetified-exoplayer-core-r2.9.0/AndroidManifest.xml:17:1-26:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding-support-v4-kotlin:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4a0bb78d9f1342560531e320779cdf77/transformed/jetified-rxbinding-support-v4-kotlin-2.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/8bd2fd420904d961fc01f0ff0709b02b/transformed/jetified-rxbinding-kotlin-2.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.uber.autodispose:autodispose-android-archcomponents:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/271a8546ef836c0a3d23bdc944063101/transformed/jetified-autodispose-android-archcomponents-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.uber.autodispose:autodispose-android-archcomponents-test:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/6605f82da44676c14efcc6b0b9b3f2f4/transformed/jetified-autodispose-android-archcomponents-test-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.uber.autodispose:autodispose-android:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/2cf3d175f26ef5a18fd254426e269086/transformed/jetified-autodispose-android-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-android:2.18] /Users/sergeylaptiy/.gradle/caches/transforms-3/fe598e5eea1c6289fabf19b8066c2cb6/transformed/jetified-dagger-android-2.18/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.realm:realm-android-adapters:3.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/5ae7a7860abe1285c740bc5461ee8f68/transformed/jetified-realm-android-adapters-3.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding-support-v4:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4b01c05d3ade0a8ad8f9599046ea5291/transformed/jetified-rxbinding-support-v4-2.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4b7dd65f0c4ba7932e5d709c035844ea/transformed/jetified-rxbinding-2.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/ca60affd8d694205cc62182c97dfd45f/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.f2prateek.rx.preferences2:rx-preferences:2.0.0-RC3] /Users/sergeylaptiy/.gradle/caches/transforms-3/c1ccc01aaab678453c00191000e70d45/transformed/jetified-rx-preferences-2.0.0-RC3/AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.google:flexbox-layout:0.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/67201b8ad8422965a2a9e77cae8bfc9d/transformed/jetified-flexbox-layout-0.3.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/7e69afb64a3a21a35deec0ebf7f14552/transformed/jetified-timber-4.5.1/AndroidManifest.xml:2:1-10:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/sergeylaptiy/.gradle/caches/transforms-3/b9128620af34add4876d497849281010/transformed/jetified-relinker-1.4.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d4e45a1a2183a670a208ea788af98062/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/2191db864c7a9eb11335e46994b041b3/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/sergeylaptiy/.gradle/caches/transforms-3/32b91e9dc42e0cb4d04d0a3eac01a34c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/sergeylaptiy/.gradle/caches/transforms-3/48d1bb9de24ea8163867531af820f527/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/b549598c920085d3e5ba3e226ea6cf5a/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/6e619a1411acf7c349e668a1a48b3718/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/7c17fd27554f640601f970bdacf5e284/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji:emoji:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/6bf62960a72a2e17e34315e94947ca6c/transformed/emoji-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta05] /Users/sergeylaptiy/.gradle/caches/transforms-3/b53cf06124054cbe4bf56daccf246bf9/transformed/recyclerview-1.1.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/a9aacfa471baab22470ff5c99d6c7e06/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/931051d401f40334fb5310b8e90c1638/transformed/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/c7a71d94f68372370bfde9b7a56d106b/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/ab09a6350b889048b2ecaa76326bfa7c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/e7a9a3cc64ec35f4a38a1558a0b8d515/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/14c7d78213d5dda3a55685017cc5d073/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/c4b395be8a4a35a359fc128e0035d84a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/01afca728d9d013a1396a8cd71f0fcd3/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/9378dccaebe6c5971ab0adcabe089cca/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d9d7557c78ba524fd890e6edb9fcb851/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/94757915a42164baa277913effa34ed2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/adbb40125697080fdc42017a5afcf186/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/de2b325a713fffc36288c10b4a59f6fc/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/7bdd9b31b8c6fe5f4b0e88270e22b6e1/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/83e00314de3957ff1be6962d4bee3303/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/24b2a895783e5acdadbafd701459dbeb/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/1602d37b7b7aa0a059643299122a936c/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/2e6a54b279747af7b3a081dfc3dbad8e/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/8059d21c49e05737aaa824dd8a23d58a/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/aeff461a49ccb6133e54457fe3002516/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/d9fea3db428aa1ed6b30b025141d6773/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/0cb84d84ef284e4b5d3984dd412a7c17/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/a47d95cb8d33168fb6c2a50e064496ae/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/eae772d4d2884c8c22ac2969c9b0e01b/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/eab97aad82c8e745f9397e65a366b17c/transformed/documentfile-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.callcontrol:datashare:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/60e3696689d9ef15981cf655f77f0a3e/transformed/jetified-datashare-1.3.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/adc64d11c9099a5f14143afc2de56319/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/0a49bc1c4e42c41e846c27d51632f319/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d7d542f047b48835b96f100685579f98/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/be3d37573849a67f70a3864fef8f253c/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.michaelrocks:libphonenumber-android:8.13.47] /Users/sergeylaptiy/.gradle/caches/transforms-3/83c7749a2e30b613269348bade1c285c/transformed/jetified-libphonenumber-android-8.13.47/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/5afc46d26bed2fcc52fe9ac1f6b9d146/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:21:5-51
+	android:versionCode
+		INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:20:11-69
+uses-feature#android.hardware.telephony
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:24:9-50
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:27:5-79
+MERGED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [com.github.google.ExoPlayer:exoplayer-core:r2.9.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/56f671fef9fe701d39e48a824e794a85/transformed/jetified-exoplayer-core-r2.9.0/AndroidManifest.xml:24:5-79
+MERGED from [com.github.google.ExoPlayer:exoplayer-core:r2.9.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/56f671fef9fe701d39e48a824e794a85/transformed/jetified-exoplayer-core-r2.9.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:28:5-69
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:28:22-66
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:30:5-77
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:30:22-74
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:32:5-76
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:32:22-74
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:33:5-72
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:33:22-69
+uses-permission#android.permission.READ_SMS
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:34:5-67
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:34:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:35:5-75
+MERGED from [:data] /Users/sergeylaptiy/Develop/cc-messaging/data/build/intermediates/merged_manifest/noAnalyticsRelease/AndroidManifest.xml:25:5-75
+MERGED from [:data] /Users/sergeylaptiy/Develop/cc-messaging/data/build/intermediates/merged_manifest/noAnalyticsRelease/AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:35:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:36:5-81
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:36:22-78
+uses-permission#android.permission.RECEIVE_MMS
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:37:5-70
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:37:22-67
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:38:5-70
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:38:22-67
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:39:5-79
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:39:22-76
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:40:5-67
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:40:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:41:5-66
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:41:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:42:5-68
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:42:22-65
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:43:5-76
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:43:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:44:5-75
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:44:22-72
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:45:5-75
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:45:22-72
+application
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:47:5-254:19
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:47:5-254:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/ee53f81f25f807aec7ddd7350b64fca0/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/ee53f81f25f807aec7ddd7350b64fca0/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/8a223b0d59d17563721c1ba9db5654f2/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/8a223b0d59d17563721c1ba9db5654f2/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sergeylaptiy/.gradle/caches/transforms-3/e98395bd9ce9877dbee5aabca74db865/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sergeylaptiy/.gradle/caches/transforms-3/e98395bd9ce9877dbee5aabca74db865/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-16:19
+MERGED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-16:19
+MERGED from [com.bluelinelabs:conductor-archlifecycle:2.1.5] /Users/sergeylaptiy/.gradle/caches/transforms-3/f7c36c419f4c3aa233e72ca06ab62f25/transformed/jetified-conductor-archlifecycle-2.1.5/AndroidManifest.xml:11:5-20
+MERGED from [com.bluelinelabs:conductor-archlifecycle:2.1.5] /Users/sergeylaptiy/.gradle/caches/transforms-3/f7c36c419f4c3aa233e72ca06ab62f25/transformed/jetified-conductor-archlifecycle-2.1.5/AndroidManifest.xml:11:5-20
+MERGED from [com.bluelinelabs:conductor:2.1.5] /Users/sergeylaptiy/.gradle/caches/transforms-3/fbd3c2a2e6f8d7a42bab89501fff7b30/transformed/jetified-conductor-2.1.5/AndroidManifest.xml:11:5-20
+MERGED from [com.bluelinelabs:conductor:2.1.5] /Users/sergeylaptiy/.gradle/caches/transforms-3/fbd3c2a2e6f8d7a42bab89501fff7b30/transformed/jetified-conductor-2.1.5/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/b083dded1d1aa8f30081a35c0b0bac40/transformed/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/b083dded1d1aa8f30081a35c0b0bac40/transformed/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.f2prateek.rx.preferences2:rx-preferences:2.0.0-RC3] /Users/sergeylaptiy/.gradle/caches/transforms-3/c1ccc01aaab678453c00191000e70d45/transformed/jetified-rx-preferences-2.0.0-RC3/AndroidManifest.xml:8:5-20
+MERGED from [com.f2prateek.rx.preferences2:rx-preferences:2.0.0-RC3] /Users/sergeylaptiy/.gradle/caches/transforms-3/c1ccc01aaab678453c00191000e70d45/transformed/jetified-rx-preferences-2.0.0-RC3/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/7e69afb64a3a21a35deec0ebf7f14552/transformed/jetified-timber-4.5.1/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/7e69afb64a3a21a35deec0ebf7f14552/transformed/jetified-timber-4.5.1/AndroidManifest.xml:8:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d4e45a1a2183a670a208ea788af98062/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d4e45a1a2183a670a208ea788af98062/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.core:core:1.5.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/adbb40125697080fdc42017a5afcf186/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/adbb40125697080fdc42017a5afcf186/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/d9fea3db428aa1ed6b30b025141d6773/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/d9fea3db428aa1ed6b30b025141d6773/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/a47d95cb8d33168fb6c2a50e064496ae/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/a47d95cb8d33168fb6c2a50e064496ae/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [com.callcontrol:datashare:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/60e3696689d9ef15981cf655f77f0a3e/transformed/jetified-datashare-1.3.0/AndroidManifest.xml:9:5-53
+MERGED from [com.callcontrol:datashare:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/60e3696689d9ef15981cf655f77f0a3e/transformed/jetified-datashare-1.3.0/AndroidManifest.xml:9:5-53
+	android:extractNativeLibs
+		INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml
+	android:requestLegacyExternalStorage
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:52:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/adbb40125697080fdc42017a5afcf186/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:53:9-35
+	android:label
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:51:9-41
+	android:icon
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:50:9-43
+	android:allowBackup
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:49:9-35
+	android:theme
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:54:9-46
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:48:9-45
+activity#dev.octoshrimpy.quik.feature.main.MainActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:56:9-68:20
+	android:launchMode
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:59:13-44
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:57:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.APP_MESSAGING+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:60:13-64:29
+action#android.intent.action.MAIN
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:61:17-69
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:62:27-74
+category#android.intent.category.APP_MESSAGING
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:63:17-82
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:63:27-79
+meta-data#android.app.shortcuts
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:65:13-67:53
+	android:resource
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:67:17-50
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:66:17-53
+activity#dev.octoshrimpy.quik.feature.compose.ComposeActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:69:9-112:20
+	android:parentActivityName
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:72:13-68
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:71:13-36
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:70:13-60
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.SEND+action:name:android.intent.action.SENDTO+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:sms_body+data:scheme:smsto
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:73:13-87:29
+action#android.intent.action.VIEW
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:74:17-69
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:74:25-66
+action#android.intent.action.SEND
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:76:17-69
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:76:25-66
+action#android.intent.action.SENDTO
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:77:17-71
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:77:25-68
+category#android.intent.category.DEFAULT
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:79:17-76
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:79:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:80:17-78
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:80:27-75
+data
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:82:17-46
+	android:scheme
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:82:23-43
+	android:mimeType
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:91:23-52
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:88:13-92:29
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:93:13-97:29
+intent-filter#action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:98:13-102:29
+action#android.intent.action.SEND_MULTIPLE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:99:17-78
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:99:25-75
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/x-vcard
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:103:13-107:29
+meta-data#android.service.chooser.chooser_target_service
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:109:13-111:71
+	android:value
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:111:17-68
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:110:17-78
+activity#dev.octoshrimpy.quik.feature.settings.SettingsActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:113:9-71
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:113:19-68
+activity#dev.octoshrimpy.quik.feature.plus.PlusActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:114:9-63
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:114:19-60
+activity#dev.octoshrimpy.quik.feature.gallery.GalleryActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:115:9-117:53
+	android:theme
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:117:13-50
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:116:13-60
+activity#dev.octoshrimpy.quik.feature.conversationinfo.ConversationInfoActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:118:9-87
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:118:19-84
+activity#dev.octoshrimpy.quik.feature.notificationprefs.NotificationPrefsActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:119:9-89
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:119:19-86
+activity#dev.octoshrimpy.quik.feature.blocking.BlockingActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:120:9-71
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:120:19-68
+activity#dev.octoshrimpy.quik.feature.qkreply.QkReplyActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:121:9-126:58
+	android:excludeFromRecents
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:123:13-46
+	android:windowSoftInputMode
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:126:13-55
+	android:theme
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:125:13-50
+	android:taskAffinity
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:124:13-36
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:122:13-60
+activity#dev.octoshrimpy.quik.feature.scheduled.ScheduledActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:127:9-73
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:127:19-70
+activity#dev.octoshrimpy.quik.feature.backup.BackupActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:128:9-67
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:128:19-64
+activity#dev.octoshrimpy.quik.feature.contacts.ContactsActivity
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:129:9-71
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:129:19-68
+receiver#dev.octoshrimpy.quik.receiver.BootReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:131:9-137:20
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:133:13-36
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:132:13-50
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:134:13-136:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:135:17-79
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:135:25-76
+receiver#dev.octoshrimpy.quik.receiver.DefaultSmsChangedReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:138:9-144:20
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:140:13-36
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:139:13-63
+intent-filter#action:name:android.provider.action.DEFAULT_SMS_PACKAGE_CHANGED
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:141:13-143:29
+action#android.provider.action.DEFAULT_SMS_PACKAGE_CHANGED
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:142:17-94
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:142:25-91
+receiver#dev.octoshrimpy.quik.receiver.DeleteMessagesReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:145:9-69
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:145:19-66
+receiver#dev.octoshrimpy.quik.receiver.SmsReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:146:9-153:20
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:148:13-36
+	android:permission
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:149:13-66
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:147:13-49
+intent-filter#action:name:android.provider.Telephony.SMS_DELIVER
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:150:13-152:29
+action#android.provider.Telephony.SMS_DELIVER
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:151:17-81
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:151:25-78
+receiver#dev.octoshrimpy.quik.receiver.MmsReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:154:9-162:20
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:156:13-36
+	android:permission
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:157:13-71
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:155:13-49
+intent-filter#action:name:android.provider.Telephony.WAP_PUSH_DELIVER+data:mimeType:application/vnd.wap.mms-message
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:158:13-161:29
+action#android.provider.Telephony.WAP_PUSH_DELIVER
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:159:17-86
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:159:25-83
+receiver#dev.octoshrimpy.quik.receiver.SmsSentReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:163:9-62
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:163:19-59
+receiver#dev.octoshrimpy.quik.receiver.SmsDeliveredReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:164:9-67
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:164:19-64
+receiver#dev.octoshrimpy.quik.receiver.MmsSentReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:165:9-167:68
+	android:taskAffinity
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:167:13-65
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:166:13-53
+receiver#dev.octoshrimpy.quik.receiver.MmsUpdatedReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:168:9-170:71
+	android:taskAffinity
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:170:13-68
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:169:13-56
+receiver#dev.octoshrimpy.quik.receiver.MmsReceivedReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:171:9-173:81
+	android:taskAffinity
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:173:13-78
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:172:13-57
+receiver#dev.octoshrimpy.quik.receiver.MarkArchivedReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:174:9-67
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:174:19-64
+receiver#dev.octoshrimpy.quik.receiver.BlockThreadReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:175:9-66
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:175:19-63
+receiver#dev.octoshrimpy.quik.receiver.MarkSeenReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:176:9-63
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:176:19-60
+receiver#dev.octoshrimpy.quik.receiver.MarkReadReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:177:9-63
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:177:19-60
+receiver#dev.octoshrimpy.quik.receiver.RemoteMessagingReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:178:9-70
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:178:19-67
+receiver#dev.octoshrimpy.quik.receiver.NightModeReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:179:9-64
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:179:19-61
+receiver#dev.octoshrimpy.quik.receiver.SmsProviderChangedReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:180:9-186:20
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:182:13-36
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:181:13-64
+intent-filter#action:name:android.provider.action.EXTERNAL_PROVIDER_CHANGE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:183:13-185:29
+action#android.provider.action.EXTERNAL_PROVIDER_CHANGE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:184:17-91
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:184:25-88
+receiver#dev.octoshrimpy.quik.receiver.SendScheduledMessageReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:188:9-75
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:188:19-72
+receiver#dev.octoshrimpy.quik.feature.widget.WidgetProvider
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:189:9-200:20
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:191:13-36
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:190:13-58
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:dev.octoshrimpy.quik.intent.action.ACTION_NOTIFY_DATASET_CHANGED
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:192:13-195:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:193:17-84
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:193:25-81
+action#dev.octoshrimpy.quik.intent.action.ACTION_NOTIFY_DATASET_CHANGED
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:194:17-107
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:194:25-104
+meta-data#android.appwidget.provider
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:197:13-199:55
+	android:resource
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:199:17-52
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:198:17-58
+receiver#dev.octoshrimpy.quik.receiver.SendSmsReceiver
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:201:9-62
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:201:19-59
+service#com.android.mms.transaction.TransactionService
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:203:9-82
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:203:18-79
+service#dev.octoshrimpy.quik.feature.backup.RestoreBackupService
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:204:9-72
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:204:18-69
+service#dev.octoshrimpy.quik.feature.widget.WidgetService
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:205:9-207:72
+	android:permission
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:207:13-69
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:206:13-57
+service#dev.octoshrimpy.quik.service.AutoDeleteService
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:209:9-211:72
+	android:permission
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:211:13-69
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:210:13-54
+service#dev.octoshrimpy.quik.service.HeadlessSmsSendService
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:212:9-225:19
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:214:13-36
+	android:permission
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:215:13-77
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:213:13-59
+intent-filter#action:name:android.intent.action.RESPOND_VIA_MESSAGE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:smsto
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:216:13-224:29
+action#android.intent.action.RESPOND_VIA_MESSAGE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:217:17-84
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:217:25-81
+service#dev.octoshrimpy.quik.common.util.QkChooserTargetService
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:227:9-235:19
+	android:label
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:230:13-45
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:229:13-37
+	android:permission
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:231:13-80
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:228:13-63
+intent-filter#action:name:android.service.chooser.ChooserTargetService
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:232:13-234:29
+action#android.service.chooser.ChooserTargetService
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:233:17-87
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:233:25-84
+meta-data#com.callcontrol.datashare.messaging
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:237:9-239:36
+	android:value
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:239:13-33
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:238:13-63
+meta-data#preloaded_fonts
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:240:9-242:57
+	android:resource
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:242:13-54
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:241:13-43
+queries
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:256:5-260:15
+package#com.cuiet.blockCalls
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:257:9-56
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:257:18-53
+package#com.flexaspect.android.everycallcontrol
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:258:9-75
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:258:18-72
+package#call.control.block.messaging
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:259:9-64
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:259:18-61
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:249:13-251:58
+	android:resource
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:251:17-55
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml:250:17-67
+uses-sdk
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml
+MERGED from [:data] /Users/sergeylaptiy/Develop/cc-messaging/data/build/intermediates/merged_manifest/noAnalyticsRelease/AndroidManifest.xml:23:5-44
+MERGED from [:data] /Users/sergeylaptiy/Develop/cc-messaging/data/build/intermediates/merged_manifest/noAnalyticsRelease/AndroidManifest.xml:23:5-44
+MERGED from [:domain] /Users/sergeylaptiy/Develop/cc-messaging/domain/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:5-44
+MERGED from [:domain] /Users/sergeylaptiy/Develop/cc-messaging/domain/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:5-44
+MERGED from [io.realm:realm-android-library:10.15.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/7afb444d00884084ee4b0189895e54b9/transformed/jetified-realm-android-library-10.15.0/AndroidManifest.xml:5:5-44
+MERGED from [io.realm:realm-android-library:10.15.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/7afb444d00884084ee4b0189895e54b9/transformed/jetified-realm-android-library-10.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/ee53f81f25f807aec7ddd7350b64fca0/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/ee53f81f25f807aec7ddd7350b64fca0/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji:emoji-appcompat:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/71afe01a4a2f0865cb3ebceab8331b5f/transformed/emoji-appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji:emoji-appcompat:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/71afe01a4a2f0865cb3ebceab8331b5f/transformed/emoji-appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/8a223b0d59d17563721c1ba9db5654f2/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/8a223b0d59d17563721c1ba9db5654f2/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.18] /Users/sergeylaptiy/.gradle/caches/transforms-3/b8431c2176790687504f9cebb52db6a6/transformed/jetified-dagger-android-support-2.18/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.18] /Users/sergeylaptiy/.gradle/caches/transforms-3/b8431c2176790687504f9cebb52db6a6/transformed/jetified-dagger-android-support-2.18/AndroidManifest.xml:20:5-44
+MERGED from [com.github.chrisbanes:photoview:2.1.4] /Users/sergeylaptiy/.gradle/caches/transforms-3/ffc9f17b9e7879bbd46936ee6ba62dc9/transformed/jetified-photoview-2.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes:photoview:2.1.4] /Users/sergeylaptiy/.gradle/caches/transforms-3/ffc9f17b9e7879bbd46936ee6ba62dc9/transformed/jetified-photoview-2.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/6a36bcd80c98ebddec88fd44028f3c0f/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/6a36bcd80c98ebddec88fd44028f3c0f/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sergeylaptiy/.gradle/caches/transforms-3/e98395bd9ce9877dbee5aabca74db865/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sergeylaptiy/.gradle/caches/transforms-3/e98395bd9ce9877dbee5aabca74db865/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [:common] /Users/sergeylaptiy/Develop/cc-messaging/common/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:5-44
+MERGED from [:common] /Users/sergeylaptiy/Develop/cc-messaging/common/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:5-44
+MERGED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/f3295e3e84273c7c1d75651565f55d6e/transformed/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/f3295e3e84273c7c1d75651565f55d6e/transformed/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta05] /Users/sergeylaptiy/.gradle/caches/transforms-3/a07d3c98a0d151be1fe8a1b4b93134a4/transformed/jetified-viewpager2-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta05] /Users/sergeylaptiy/.gradle/caches/transforms-3/a07d3c98a0d151be1fe8a1b4b93134a4/transformed/jetified-viewpager2-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [com.bluelinelabs:conductor-archlifecycle:2.1.5] /Users/sergeylaptiy/.gradle/caches/transforms-3/f7c36c419f4c3aa233e72ca06ab62f25/transformed/jetified-conductor-archlifecycle-2.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bluelinelabs:conductor-archlifecycle:2.1.5] /Users/sergeylaptiy/.gradle/caches/transforms-3/f7c36c419f4c3aa233e72ca06ab62f25/transformed/jetified-conductor-archlifecycle-2.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bluelinelabs:conductor:2.1.5] /Users/sergeylaptiy/.gradle/caches/transforms-3/fbd3c2a2e6f8d7a42bab89501fff7b30/transformed/jetified-conductor-2.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bluelinelabs:conductor:2.1.5] /Users/sergeylaptiy/.gradle/caches/transforms-3/fbd3c2a2e6f8d7a42bab89501fff7b30/transformed/jetified-conductor-2.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/b083dded1d1aa8f30081a35c0b0bac40/transformed/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/b083dded1d1aa8f30081a35c0b0bac40/transformed/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.google.ExoPlayer:exoplayer-ui:r2.9.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4ca7aaa9ea1d02dfe7d8f9f6377b1393/transformed/jetified-exoplayer-ui-r2.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.google.ExoPlayer:exoplayer-ui:r2.9.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4ca7aaa9ea1d02dfe7d8f9f6377b1393/transformed/jetified-exoplayer-ui-r2.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.google.ExoPlayer:exoplayer-core:r2.9.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/56f671fef9fe701d39e48a824e794a85/transformed/jetified-exoplayer-core-r2.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.google.ExoPlayer:exoplayer-core:r2.9.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/56f671fef9fe701d39e48a824e794a85/transformed/jetified-exoplayer-core-r2.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.rxbinding2:rxbinding-support-v4-kotlin:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4a0bb78d9f1342560531e320779cdf77/transformed/jetified-rxbinding-support-v4-kotlin-2.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding-support-v4-kotlin:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4a0bb78d9f1342560531e320779cdf77/transformed/jetified-rxbinding-support-v4-kotlin-2.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/8bd2fd420904d961fc01f0ff0709b02b/transformed/jetified-rxbinding-kotlin-2.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/8bd2fd420904d961fc01f0ff0709b02b/transformed/jetified-rxbinding-kotlin-2.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.uber.autodispose:autodispose-android-archcomponents:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/271a8546ef836c0a3d23bdc944063101/transformed/jetified-autodispose-android-archcomponents-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.uber.autodispose:autodispose-android-archcomponents:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/271a8546ef836c0a3d23bdc944063101/transformed/jetified-autodispose-android-archcomponents-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.uber.autodispose:autodispose-android-archcomponents-test:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/6605f82da44676c14efcc6b0b9b3f2f4/transformed/jetified-autodispose-android-archcomponents-test-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.uber.autodispose:autodispose-android-archcomponents-test:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/6605f82da44676c14efcc6b0b9b3f2f4/transformed/jetified-autodispose-android-archcomponents-test-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.uber.autodispose:autodispose-android:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/2cf3d175f26ef5a18fd254426e269086/transformed/jetified-autodispose-android-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.uber.autodispose:autodispose-android:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/2cf3d175f26ef5a18fd254426e269086/transformed/jetified-autodispose-android-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-android:2.18] /Users/sergeylaptiy/.gradle/caches/transforms-3/fe598e5eea1c6289fabf19b8066c2cb6/transformed/jetified-dagger-android-2.18/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.18] /Users/sergeylaptiy/.gradle/caches/transforms-3/fe598e5eea1c6289fabf19b8066c2cb6/transformed/jetified-dagger-android-2.18/AndroidManifest.xml:20:5-44
+MERGED from [com.github.realm:realm-android-adapters:3.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/5ae7a7860abe1285c740bc5461ee8f68/transformed/jetified-realm-android-adapters-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.realm:realm-android-adapters:3.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/5ae7a7860abe1285c740bc5461ee8f68/transformed/jetified-realm-android-adapters-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.rxbinding2:rxbinding-support-v4:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4b01c05d3ade0a8ad8f9599046ea5291/transformed/jetified-rxbinding-support-v4-2.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding-support-v4:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4b01c05d3ade0a8ad8f9599046ea5291/transformed/jetified-rxbinding-support-v4-2.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4b7dd65f0c4ba7932e5d709c035844ea/transformed/jetified-rxbinding-2.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/4b7dd65f0c4ba7932e5d709c035844ea/transformed/jetified-rxbinding-2.0.0/AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/ca60affd8d694205cc62182c97dfd45f/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/ca60affd8d694205cc62182c97dfd45f/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [com.f2prateek.rx.preferences2:rx-preferences:2.0.0-RC3] /Users/sergeylaptiy/.gradle/caches/transforms-3/c1ccc01aaab678453c00191000e70d45/transformed/jetified-rx-preferences-2.0.0-RC3/AndroidManifest.xml:6:5-43
+MERGED from [com.f2prateek.rx.preferences2:rx-preferences:2.0.0-RC3] /Users/sergeylaptiy/.gradle/caches/transforms-3/c1ccc01aaab678453c00191000e70d45/transformed/jetified-rx-preferences-2.0.0-RC3/AndroidManifest.xml:6:5-43
+MERGED from [com.github.google:flexbox-layout:0.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/67201b8ad8422965a2a9e77cae8bfc9d/transformed/jetified-flexbox-layout-0.3.1/AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.google:flexbox-layout:0.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/67201b8ad8422965a2a9e77cae8bfc9d/transformed/jetified-flexbox-layout-0.3.1/AndroidManifest.xml:23:5-25:41
+MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/7e69afb64a3a21a35deec0ebf7f14552/transformed/jetified-timber-4.5.1/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.5.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/7e69afb64a3a21a35deec0ebf7f14552/transformed/jetified-timber-4.5.1/AndroidManifest.xml:6:5-43
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/sergeylaptiy/.gradle/caches/transforms-3/b9128620af34add4876d497849281010/transformed/jetified-relinker-1.4.3/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/sergeylaptiy/.gradle/caches/transforms-3/b9128620af34add4876d497849281010/transformed/jetified-relinker-1.4.3/AndroidManifest.xml:5:5-43
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d4e45a1a2183a670a208ea788af98062/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d4e45a1a2183a670a208ea788af98062/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/2191db864c7a9eb11335e46994b041b3/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/2191db864c7a9eb11335e46994b041b3/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/sergeylaptiy/.gradle/caches/transforms-3/32b91e9dc42e0cb4d04d0a3eac01a34c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/sergeylaptiy/.gradle/caches/transforms-3/32b91e9dc42e0cb4d04d0a3eac01a34c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/sergeylaptiy/.gradle/caches/transforms-3/48d1bb9de24ea8163867531af820f527/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/sergeylaptiy/.gradle/caches/transforms-3/48d1bb9de24ea8163867531af820f527/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/b549598c920085d3e5ba3e226ea6cf5a/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/b549598c920085d3e5ba3e226ea6cf5a/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/6e619a1411acf7c349e668a1a48b3718/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/6e619a1411acf7c349e668a1a48b3718/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/7c17fd27554f640601f970bdacf5e284/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/7c17fd27554f640601f970bdacf5e284/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji:emoji:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/6bf62960a72a2e17e34315e94947ca6c/transformed/emoji-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji:emoji:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/6bf62960a72a2e17e34315e94947ca6c/transformed/emoji-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta05] /Users/sergeylaptiy/.gradle/caches/transforms-3/b53cf06124054cbe4bf56daccf246bf9/transformed/recyclerview-1.1.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta05] /Users/sergeylaptiy/.gradle/caches/transforms-3/b53cf06124054cbe4bf56daccf246bf9/transformed/recyclerview-1.1.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/a9aacfa471baab22470ff5c99d6c7e06/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/a9aacfa471baab22470ff5c99d6c7e06/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/931051d401f40334fb5310b8e90c1638/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/931051d401f40334fb5310b8e90c1638/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/c7a71d94f68372370bfde9b7a56d106b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/c7a71d94f68372370bfde9b7a56d106b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/ab09a6350b889048b2ecaa76326bfa7c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/ab09a6350b889048b2ecaa76326bfa7c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/e7a9a3cc64ec35f4a38a1558a0b8d515/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/e7a9a3cc64ec35f4a38a1558a0b8d515/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/14c7d78213d5dda3a55685017cc5d073/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/14c7d78213d5dda3a55685017cc5d073/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/c4b395be8a4a35a359fc128e0035d84a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/c4b395be8a4a35a359fc128e0035d84a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/01afca728d9d013a1396a8cd71f0fcd3/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/01afca728d9d013a1396a8cd71f0fcd3/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/9378dccaebe6c5971ab0adcabe089cca/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/9378dccaebe6c5971ab0adcabe089cca/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d9d7557c78ba524fd890e6edb9fcb851/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d9d7557c78ba524fd890e6edb9fcb851/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/94757915a42164baa277913effa34ed2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/94757915a42164baa277913effa34ed2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/adbb40125697080fdc42017a5afcf186/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/adbb40125697080fdc42017a5afcf186/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/de2b325a713fffc36288c10b4a59f6fc/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/de2b325a713fffc36288c10b4a59f6fc/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/7bdd9b31b8c6fe5f4b0e88270e22b6e1/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/7bdd9b31b8c6fe5f4b0e88270e22b6e1/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/83e00314de3957ff1be6962d4bee3303/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/83e00314de3957ff1be6962d4bee3303/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/24b2a895783e5acdadbafd701459dbeb/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/24b2a895783e5acdadbafd701459dbeb/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/1602d37b7b7aa0a059643299122a936c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/1602d37b7b7aa0a059643299122a936c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/2e6a54b279747af7b3a081dfc3dbad8e/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/2e6a54b279747af7b3a081dfc3dbad8e/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/8059d21c49e05737aaa824dd8a23d58a/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/8059d21c49e05737aaa824dd8a23d58a/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/aeff461a49ccb6133e54457fe3002516/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/aeff461a49ccb6133e54457fe3002516/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/d9fea3db428aa1ed6b30b025141d6773/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/d9fea3db428aa1ed6b30b025141d6773/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/0cb84d84ef284e4b5d3984dd412a7c17/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/0cb84d84ef284e4b5d3984dd412a7c17/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/a47d95cb8d33168fb6c2a50e064496ae/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/a47d95cb8d33168fb6c2a50e064496ae/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/eae772d4d2884c8c22ac2969c9b0e01b/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/eae772d4d2884c8c22ac2969c9b0e01b/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/eab97aad82c8e745f9397e65a366b17c/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/sergeylaptiy/.gradle/caches/transforms-3/eab97aad82c8e745f9397e65a366b17c/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.callcontrol:datashare:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/60e3696689d9ef15981cf655f77f0a3e/transformed/jetified-datashare-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.callcontrol:datashare:1.3.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/60e3696689d9ef15981cf655f77f0a3e/transformed/jetified-datashare-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/adc64d11c9099a5f14143afc2de56319/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/adc64d11c9099a5f14143afc2de56319/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/0a49bc1c4e42c41e846c27d51632f319/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/0a49bc1c4e42c41e846c27d51632f319/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d7d542f047b48835b96f100685579f98/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d7d542f047b48835b96f100685579f98/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/be3d37573849a67f70a3864fef8f253c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/be3d37573849a67f70a3864fef8f253c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.michaelrocks:libphonenumber-android:8.13.47] /Users/sergeylaptiy/.gradle/caches/transforms-3/83c7749a2e30b613269348bade1c285c/transformed/jetified-libphonenumber-android-8.13.47/AndroidManifest.xml:5:5-44
+MERGED from [io.michaelrocks:libphonenumber-android:8.13.47] /Users/sergeylaptiy/.gradle/caches/transforms-3/83c7749a2e30b613269348bade1c285c/transformed/jetified-libphonenumber-android-8.13.47/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/5afc46d26bed2fcc52fe9ac1f6b9d146/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/5afc46d26bed2fcc52fe9ac1f6b9d146/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/presentation/src/main/AndroidManifest.xml
+provider#com.klinker.android.send_message.MmsFileProvider
+ADDED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-15:50
+	android:grantUriPermissions
+		ADDED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+	android:enabled
+		ADDED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-35
+	android:authorities
+		ADDED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-67
+	android:exported
+		ADDED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:android-smsmms] /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-76
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/sergeylaptiy/.gradle/caches/transforms-3/e39129f7daeb316833c2e4be677effca/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d4e45a1a2183a670a208ea788af98062/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d4e45a1a2183a670a208ea788af98062/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d4e45a1a2183a670a208ea788af98062/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d4e45a1a2183a670a208ea788af98062/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/sergeylaptiy/.gradle/caches/transforms-3/d4e45a1a2183a670a208ea788af98062/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79

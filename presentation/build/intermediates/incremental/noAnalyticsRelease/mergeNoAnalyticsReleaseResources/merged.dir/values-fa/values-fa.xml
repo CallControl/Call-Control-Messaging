@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="delayed_sending_labels">
+        <item>بدون درنگ</item>
+        <item>۳ ثانیه</item>
+        <item>۵ ثانیه</item>
+        <item>۱۰ ثانیه</item>
+    </string-array>
+    <string-array name="message_options">
+        <item>کپی متن</item>
+        <item>هدایت</item>
+        <item>حذف</item>
+    </string-array>
+    <string-array name="mms_sizes">
+        <item>خودکار</item>
+        <item>۱۰۰ کیلوبایت</item>
+        <item>۲۰۰ کیلوبایت</item>
+        <item>۳۰۰ کیلوبایت</item>
+        <item>۶۰۰ کیلوبایت</item>
+        <item>۱۰۰۰ کیلوبایت</item>
+        <item>۲۰۰۰ کیلوبایت</item>
+        <item>بدون فشرده‌سازی</item>
+    </string-array>
+    <string-array name="night_modes">
+        <item>سامانه</item>
+        <item>غیرفعال</item>
+        <item>همیشه روشن</item>
+        <item>خودکار</item>
+    </string-array>
+    <string-array name="notification_actions">
+        <item>هیچ</item>
+        <item>بایگانی کن</item>
+        <item>حذف</item>
+        <item>مسدود کردن</item>
+        <item>تماس</item>
+        <item>نشان به‌عنوان خوانده شده</item>
+        <item>پاسخ</item>
+    </string-array>
+    <string-array name="notification_preview_options">
+        <item>نمایش نام و پیام</item>
+        <item>نمایش نام</item>
+        <item>مخفی کردن محتویات</item>
+    </string-array>
+    <string-array name="qk_responses">
+        <item>باشه</item>
+        <item>یک لحظه لطفاً</item>
+        <item>تو راهم</item>
+        <item>سپاس</item>
+        <item>به نظر خوبه</item>
+        <item>چه خبر؟</item>
+        <item>موافقم</item>
+        <item>نه</item>
+        <item>دوستت دارم</item>
+        <item>متاسفم</item>
+        <item>خخخخ</item>
+        <item>خوبه</item>
+    </string-array>
+    <string-array name="scheduled_options">
+        <item>هم اکنون بفرست</item>
+        <item>کپی متن</item>
+        <item>حذف</item>
+    </string-array>
+    <string-array name="settings_swipe_actions">
+        <item>هیچی</item>
+        <item>بایگانی</item>
+        <item>پاک کردن</item>
+        <item>مسدود کردن</item>
+        <item>تماس</item>
+        <item>نشان به‌عنوان خوانده شده</item>
+        <item>نشان به‌عنوان خوانده نشده</item>
+    </string-array>
+    <string-array name="text_sizes">
+        <item>کوچک</item>
+        <item>عادی</item>
+        <item>بزرگ</item>
+        <item>بزرگتر</item>
+    </string-array>
+    <plurals name="blocking_block_external">
+        <item quantity="one">به %s ادامه دهید و این شماره را مسدود کن</item>
+        <item quantity="other">به %s ادامه دهید و این شماره‌ها را مسدود کن</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">به %s ادامه دهید و به این شماره اجازه بده</item>
+        <item quantity="other">به %s ادامه دهید و به این شماره‌ها اجازه بده</item>
+    </plurals>
+    <plurals name="dialog_delete_message">
+        <item quantity="one">آیا مطمئن هستید که می خواهید این گفتگو را حذف کنید؟</item>
+        <item quantity="other">آیا مطمئن هستید که می خواهید %d گفتگو را حذف کنید؟</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="one">پیام جدید</item>
+        <item quantity="other">پیام جدید</item>
+    </plurals>
+    <plurals name="settings_auto_delete_summary">
+        <item quantity="one">بعد از ۱ روز</item>
+        <item quantity="other">بعد از %d روز</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"پیمایش به صفحه اصلی"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"رفتن به بالا"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"گزینه‌های بیشتر"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"تمام"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"دیدن همه"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"انتخاب برنامه"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"خاموش"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"روشن"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"‎Alt+‎"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"‎Ctrl+‎"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"‎Function+‎"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"‎Meta+‎"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"‎Shift+‎"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"فاصله"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"‎Sym+‎"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"منو+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"جستجو…‏"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"پاک کردن پُرسمان"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"درخواست جستجو"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"جستجو"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ارسال پُرسمان"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"جستجوی گفتاری"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"هم‌رسانی با"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"هم‌رسانی با <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"کوچک کردن"</string>
+    <string name="about_changelog_title">گزارش دگرگونی‌</string>
+    <string name="about_contact_title">مخاطب</string>
+    <string name="about_copyright_title">حق نشر</string>
+    <string name="about_developer_title">توسعه دهنده</string>
+    <string name="about_license_title">مجوز</string>
+    <string name="about_source_title">کد منبع</string>
+    <string name="about_title">درباره</string>
+    <string name="about_version_title">نگارش</string>
+    <string name="archived_empty_text">بایگانی‌هایتان اینجا نمایش داده می‌شود</string>
+    <string name="backup_backing_up">پشتیبان‌گیری از پیام‌ها</string>
+    <string name="backup_details">%1$s\n%2$d messages</string>
+    <string name="backup_disclaimer">در حال حاضر ، فقط پشتیبان‌گیری و بازگردانی پیامک پشتیبانی می شود. پشتیبان‌گیری و برنامه‌ریزی برای پشتیبان‌گیری از MMS به زودی ارائه می شود!</string>
+    <string name="backup_loading">در حال بارگذاری…</string>
+    <string name="backup_location_summary">Set folder</string>
+    <string name="backup_location_title">Backup location</string>
+    <string name="backup_never">هرگز</string>
+    <string name="backup_notification_channel_name">پشتیبان‌گیری و بازگردانی</string>
+    <string name="backup_now">اکنون پشتیبان‌گیری کن</string>
+    <string name="backup_progress_finished">تمام شد!</string>
+    <string name="backup_progress_parsing">در حال تجزیه پشتیبان…</string>
+    <string name="backup_progress_running">%d/%d پیام</string>
+    <string name="backup_progress_saving">در حال ذخیره پشتیبان…</string>
+    <string name="backup_progress_syncing">در حال همگام‌سازی پیام‌ها…</string>
+    <string name="backup_restore_confirm_title">بازگردانی از نسخه پشتیبان</string>
+    <string name="backup_restore_dialog_empty">نسخه پشتیبانی یافت نشد</string>
+    <string name="backup_restore_dialog_title">پشتیبان‌ها</string>
+    <string name="backup_restore_error_backup">پشتیبان‌گیری در حال انجام است…</string>
+    <string name="backup_restore_error_plus">لطفاً QUIK + را باز کنید تا از امکانات پشتیبان و بازیابی بهره ببرید</string>
+    <string name="backup_restore_error_restore">بازگردانی در حال انجام است…</string>
+    <string name="backup_restore_stop_message">پیام‌هایی که قبلا بازگردانی شده‌اند در دستگاه شما باقی خواهند ماند</string>
+    <string name="backup_restore_stop_title">بازگردانی را متوقف کن</string>
+    <string name="backup_restore_summary">یک پشتیبان را برگزینید</string>
+    <string name="backup_restore_title">بازگردانی</string>
+    <string name="backup_restoring">بازگرداندن پشتیبان</string>
+    <string name="backup_select_location_rationale_message">Please select a folder to save your backups to</string>
+    <string name="backup_select_location_rationale_title">Select backup location</string>
+    <string name="backup_selected_backup_details_title">Backup details</string>
+    <string name="backup_selected_backup_error_message">Couldn\'t read backup file</string>
+    <string name="backup_selected_backup_error_title">Error</string>
+    <string name="backup_title">پشتیبان‌گیری و بازیابی</string>
+    <string name="blocked_messages_empty">پیامهای مسدود شده شما در اینجا ظاهر می شوند</string>
+    <string name="blocked_messages_title">پیام‌های مسدود شده</string>
+    <string name="blocked_numbers_add_cd">انسداد شماره جدید</string>
+    <string name="blocked_numbers_dialog_block">مسدود کردن</string>
+    <string name="blocked_numbers_dialog_hint">شماره تلفن</string>
+    <string name="blocked_numbers_dialog_title">انسداد پیام از طرف</string>
+    <string name="blocked_numbers_empty">شماره های مسدود شده شما در اینجا ظاهر می شوند</string>
+    <string name="blocked_numbers_title">شماره‌های مسدود شده</string>
+    <string name="blocking_block_title">مسدود کردن</string>
+    <string name="blocking_conversations">گفتگوهای مسدود شده</string>
+    <string name="blocking_drop_summary">پیام های ورودی را از فرستنده های مسدود شده به جای مخفی کردن آنها دور بیندازید</string>
+    <string name="blocking_drop_title">پیام‌ها را دور بینداز</string>
+    <string name="blocking_manager_call_blocker_summary">مسدود کردن پیام های هرزنامه، شماره ها و تماس های ناشناخته توسط لیست سیاه و  جدول زمان بندی</string>
+    <string name="blocking_manager_call_control_summary">تماس ها و پیام های خود را بطور خودکار فیلتر کنید! IQ Community به شما اجازه می دهد تا از پیام های ناخواسته توسط اسپمرهای شناخته شده در جامعه جلوگیری کنید</string>
+    <string name="blocking_manager_copy_summary">به %s ادامه دهید و از شماره های مسدود شده موجود خود کپی کنید</string>
+    <string name="blocking_manager_copy_title">کپی شماره های مسدود شده</string>
+    <string name="blocking_manager_qksms_summary">عملکرد مسدود کننده داخلی در QUIK</string>
+    <string name="blocking_manager_qksms_title">QUIK</string>
+    <string name="blocking_manager_sia_summary">با استفاده از برنامه «آیا باید جواب بدم»، پیام‌ها را از شماره های ناخواسته به طور خودکار فیلتر کنید</string>
+    <string name="blocking_manager_title">مدیریت انسداد</string>
+    <string name="blocking_title">انسداد</string>
+    <string name="blocking_unblock_title">رفع مسدوديت</string>
+    <string name="button_cancel">لغو</string>
+    <string name="button_continue">ادامه</string>
+    <string name="button_delete">حذف</string>
+    <string name="button_more">بيشتر</string>
+    <string name="button_save">ذخیره</string>
+    <string name="button_set">تنظیم</string>
+    <string name="button_stop">توقف</string>
+    <string name="button_undo">برگرده</string>
+    <string name="button_yes">بله</string>
+    <string name="compose_attach_cd">افزودن پیوست</string>
+    <string name="compose_camera_cd">گرفتن عکس</string>
+    <string name="compose_contact_cd">یک مخاطب پیوست کنید</string>
+    <string name="compose_contact_error">خطا در خواندن مخاطب</string>
+    <string name="compose_details_delivered">تحویل داده شده: %s</string>
+    <string name="compose_details_error_code">کد خطا: %d</string>
+    <string name="compose_details_from">از: %s</string>
+    <string name="compose_details_priority">اولویت: %s</string>
+    <string name="compose_details_received">دریافت شده: %s</string>
+    <string name="compose_details_sent">فرستاده‌شده: %s</string>
+    <string name="compose_details_size">اندازه: %s</string>
+    <string name="compose_details_subject">موضوع: %s</string>
+    <string name="compose_details_title">جزئیات پیام</string>
+    <string name="compose_details_to">به: %s</string>
+    <string name="compose_details_type">نوع: %s</string>
+    <string name="compose_gallery_cd">پیوست یک عکس</string>
+    <string name="compose_hint">نوشتن پیام…</string>
+    <string name="compose_menu_clear">پاک‌سازی</string>
+    <string name="compose_menu_copy">کپی‌کردن متن</string>
+    <string name="compose_menu_delete">حذف</string>
+    <string name="compose_menu_forward">هدایت</string>
+    <string name="compose_menu_next">بعدی</string>
+    <string name="compose_menu_previous">قبلی</string>
+    <string name="compose_messages_empty">این آغاز گفتگوی شماست. یه چیز خوب بگو!</string>
+    <string name="compose_number_picker_always">همیشه</string>
+    <string name="compose_number_picker_default">%s ∙ پیش‌فرض</string>
+    <string name="compose_number_picker_once">فقط یک بار</string>
+    <string name="compose_number_picker_title">یک شماره تلفن انتخاب کنید</string>
+    <string name="compose_schedule_cd">زمان‌بندی پیام</string>
+    <string name="compose_scheduled_for">برنامه‌ریزی شده برای</string>
+    <string name="compose_scheduled_future">زمان انتخابی باید در آینده باشد!</string>
+    <string name="compose_scheduled_plus">برای استفاده از پیام‌های برنامه‌ریزی شده ، باید QUIK+ را باز کنید</string>
+    <string name="compose_scheduled_toast">به پیام‌های برنامه‌ریزی شده افزوده شد</string>
+    <string name="compose_send_cd">فرستادن پیام</string>
+    <string name="compose_send_group_summary">گیرندگان و پاسخ‌ها برای همه قابل مشاهده خواهد بود</string>
+    <string name="compose_send_group_title">ارسال به‌صورت پیام گروهی</string>
+    <string name="compose_sim_cd">%s انتخاب شد، سیم‌کارت را عوض کنید</string>
+    <string name="compose_sim_changed_toast">سیم‌کارت %1$d (%2$s) انتخاب شد</string>
+    <string name="compose_subtitle_results">نتایج %1$d از %2$d</string>
+    <string name="compose_title_selected">%d انتخاب شده</string>
+    <string name="compose_vcard_label">کارت تماس</string>
+    <string name="dialog_delete_title">حذف</string>
+    <string name="drawer_archived">بایگانی شده</string>
+    <string name="drawer_blocking">مسدود</string>
+    <string name="drawer_help">راهنما &amp; بازخورد</string>
+    <string name="drawer_inbox">صندوق ورودی</string>
+    <string name="drawer_invite">دعوت دوستان</string>
+    <string name="drawer_more">بيشتر</string>
+    <string name="drawer_plus_banner_summary">ویژگی های جدید شگفت انگیز را باز کرده و از توسعه نرم‌افزار پشتیبانی کنید</string>
+    <string name="drawer_scheduled">زمان‌بندی شده</string>
+    <string name="drawer_settings">تنظیمات</string>
+    <string name="exo_controls_fastforward_description">جلو بردن سریع</string>
+    <string name="exo_controls_fullscreen_description">حالت تمام‌صفحه</string>
+    <string name="exo_controls_next_description">آهنگ بعدی</string>
+    <string name="exo_controls_pause_description">مکث</string>
+    <string name="exo_controls_play_description">پخش</string>
+    <string name="exo_controls_previous_description">آهنگ قبلی</string>
+    <string name="exo_controls_repeat_all_description">تکرار همه</string>
+    <string name="exo_controls_repeat_off_description">تکرار هیچ‌کدام</string>
+    <string name="exo_controls_repeat_one_description">یکبار تکرار</string>
+    <string name="exo_controls_rewind_description">عقب بردن</string>
+    <string name="exo_controls_shuffle_description">درهم</string>
+    <string name="exo_controls_stop_description">توقف</string>
+    <string name="exo_download_completed">بارگیری کامل شد</string>
+    <string name="exo_download_description">بارگیری</string>
+    <string name="exo_download_downloading">درحال بارگیری</string>
+    <string name="exo_download_failed">بارگیری نشد</string>
+    <string name="exo_download_notification_channel_name">بارگیری‌ها</string>
+    <string name="exo_download_removing">حذف بارگیری‌ها</string>
+    <string name="exo_item_list">%1$s،‏ %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f مگابیت در ثانیه</string>
+    <string name="exo_track_mono">مونو</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_selection_auto">خودکار</string>
+    <string name="exo_track_selection_none">هیچ‌کدام</string>
+    <string name="exo_track_selection_title_audio">صوتی</string>
+    <string name="exo_track_selection_title_text">نوشتار</string>
+    <string name="exo_track_selection_title_video">ویدیو</string>
+    <string name="exo_track_stereo">استریو</string>
+    <string name="exo_track_surround">صدای فراگیر</string>
+    <string name="exo_track_surround_5_point_1">صدای فراگیر ۵.۱</string>
+    <string name="exo_track_surround_7_point_1">صدای فراگیر ۷٫۱</string>
+    <string name="exo_track_unknown">نامشخص</string>
+    <string name="gallery_error">نمی‌توان رسانه را بارگذاری کرد</string>
+    <string name="gallery_toast_saved">در گالری ذخیره شد</string>
+    <string name="inbox_empty_text">گفتگوهایتان اینجا نمایش داده می‌شود</string>
+    <string name="inbox_search_empty_text">بدون نتیجه</string>
+    <string name="info_archive">بایگانی کن</string>
+    <string name="info_block">مسدود کردن</string>
+    <string name="info_copied_address">نشانی کپی شد</string>
+    <string name="info_delete">حذف گفتگو</string>
+    <string name="info_name">عنوان گفتگو</string>
+    <string name="info_notifications">اعلان‌ها</string>
+    <string name="info_theme">پوسته</string>
+    <string name="info_title">جزئیات</string>
+    <string name="info_unarchive">بیرون آوردن از بایگانی</string>
+    <string name="info_unblock">رفع مسدودیت</string>
+    <string name="main_default_sms_change">تغییر</string>
+    <string name="main_default_sms_message">QUIK را به‌عنوان برنامه پیش‌فرض پیامک انتخاب کنید</string>
+    <string name="main_default_sms_title">دوباره عاشق پیامک‌ شوید</string>
+    <string name="main_draft">پیش‌نویس</string>
+    <string name="main_drawer_open_cd">بازکردن کشو ناوبری</string>
+    <string name="main_fab_cd">شروع گفتگوی جدید</string>
+    <string name="main_menu_add_contact">افزودن به مخاطبین</string>
+    <string name="main_menu_archive">بایگانی</string>
+    <string name="main_menu_block">مسدود کردن</string>
+    <string name="main_menu_clear">پاکسازی</string>
+    <string name="main_menu_delete">حذف</string>
+    <string name="main_menu_pin">سنجاق به بالای صفحه</string>
+    <string name="main_menu_read">نشان به‌عنوان خوانده شده</string>
+    <string name="main_menu_unarchive">بیرون آوردن از بایگانی</string>
+    <string name="main_menu_unpin">رها کردن</string>
+    <string name="main_menu_unread">نشان به‌عنوان خوانده نشده</string>
+    <string name="main_message_results">%d پیام</string>
+    <string name="main_message_results_title">نتایج در پیام‌ها</string>
+    <string name="main_permission_allow">اجازه</string>
+    <string name="main_permission_contacts">QUIK نیاز به اجازه برای مشاهده مخاطبین شما دارد</string>
+    <string name="main_permission_notifications">QUIK needs permission to display notifications</string>
+    <string name="main_permission_required">نیاز به اجازه</string>
+    <string name="main_permission_sms">QUIK برای ارسال و مشاهده پیام‌ها نیاز به اجازه دارد</string>
+    <string name="main_sender_you">شما: %s</string>
+    <string name="main_syncing">در حال همگام‌سازی پیام‌ها…</string>
+    <string name="main_title_selected">%d انتخاب شده</string>
+    <string name="menu_add_person">افزودن شخص</string>
+    <string name="menu_call">تماس</string>
+    <string name="menu_info">جزئیات</string>
+    <string name="menu_save">ذخیره در گالری</string>
+    <string name="menu_share">هم‌رسانی</string>
+    <string name="message_status_delivered">رسیده %s</string>
+    <string name="message_status_failed">ارسال ناموفق بود. برای تلاش دوباره ضربه بزنید</string>
+    <string name="message_status_sending">در حال فرستادن…</string>
+    <string name="notification_message_failed_text">پیام به %s فرستاده نشد</string>
+    <string name="notification_message_failed_title">پیام ارسال نشد</string>
+    <string name="qkreply_menu_call">تماس</string>
+    <string name="qkreply_menu_collapse">کمتر نمایش بده</string>
+    <string name="qkreply_menu_delete">پاک کردن</string>
+    <string name="qkreply_menu_expand">بیشتر نمایش بده</string>
+    <string name="qkreply_menu_read">نشان به‌عنوان خوانده شده</string>
+    <string name="qkreply_menu_view">بازکردن گفتگو</string>
+    <string name="qksms_plus_backup_summary">از پیام‌هایتان به‌طور خودکار پشتیبان بگیرید. دیگر نگران از دست دادن پیام ها نباشید وقتی تلفن همراهتان را عوض می‌کنید یا از دست می‌دهید</string>
+    <string name="qksms_plus_backup_title">پشتیبان‌گیری پیام‌ها</string>
+    <string name="qksms_plus_blacklist_summary">پیام‌های دارای کلیدواژه‌ها یا مطابق با الگوها را مسدود کن</string>
+    <string name="qksms_plus_blacklist_title">مسدود کردن پیشرفته</string>
+    <string name="qksms_plus_coming_soon">به زودی</string>
+    <string name="qksms_plus_delayed_summary">قبل از ارسال پیامتان چند ثانیه صبر کنید</string>
+    <string name="qksms_plus_delayed_title">ارسال با درنگ</string>
+    <string name="qksms_plus_description_summary">شما میتوانید با %s از ما حمایت کنید</string>
+    <string name="qksms_plus_description_title">حمایت از تولید کننده،بازشدن همه چیز</string>
+    <string name="qksms_plus_donate">از طریق PayPal کمک مالی کنید</string>
+    <string name="qksms_plus_emoji_summary">ساخت میانبرهای سفارشی برای شکلک خودکار</string>
+    <string name="qksms_plus_emoji_title">شکلک خودکار سفارشی</string>
+    <string name="qksms_plus_error">خطایی رخ داده است، لطفاً دوباره امتحان کنید</string>
+    <string name="qksms_plus_forward_summary">هدایت کردن پیام از فرستندگان خاص</string>
+    <string name="qksms_plus_forward_title">هدایت خودکار</string>
+    <string name="qksms_plus_free_title">QUIK+ برای کاربران F-Droid رایگان است! اگر می‌خواهید از توسعه حمایت کنید، از کمک مالی بسیار قدردانی می‌شود. </string>
+    <string name="qksms_plus_more_summary">QUIK در حال توسعه فعال است، و خرید شما شامل تمام ویژگی های آینده QUIK + نیز هست !</string>
+    <string name="qksms_plus_more_title">بیشتر</string>
+    <string name="qksms_plus_night_summary">فعال کردن حالت شب براساس زمان روز</string>
+    <string name="qksms_plus_night_title">حالت شب خودکار</string>
+    <string name="qksms_plus_respond_summary">پاسخ خودکار به پیام‌های دریافتی با پاسخ از پیش تعیین شده</string>
+    <string name="qksms_plus_respond_title">پاسخ خودکار</string>
+    <string name="qksms_plus_scheduled_summary">پیام‌ها را برنامه‌ریزی کنید تا در یک زمان و تاریخ خاص به طور خودکار ارسال شوند</string>
+    <string name="qksms_plus_scheduled_title">پیام های برنامه ریزی شده</string>
+    <string name="qksms_plus_thanks_summary">حال شما به همه امکانات QUIK+ دسترسی دارید</string>
+    <string name="qksms_plus_thanks_title">سپاس از شما برای حمایت از QUIK! </string>
+    <string name="qksms_plus_themes_summary">در حالت متریال دیزاین رنگبندی پوسته امکانپذیر نیست</string>
+    <string name="qksms_plus_themes_title">پوسته‌های ویژه</string>
+    <string name="qksms_plus_upgrade">ارتقا مادام العمر به‌ازای %1$s %2$s</string>
+    <string name="qksms_plus_upgrade_donate">نسخه پیشرفته و حمایت به‌ازای %1$s %2$s</string>
+    <string name="rate_dismiss">رد شدن</string>
+    <string name="rate_okay">باشه!</string>
+    <string name="rate_summary">علاقه ی خود رابا امتیاز دادن به ما در گوگل پلی به اشتراک بگذارید</string>
+    <string name="rate_title">از QUIK لذت می برید؟</string>
+    <string name="scheduled_compose_cd">یک پیام را برنامه‌ریزی کنید</string>
+    <string name="scheduled_empty_description">در همان لحظه ای که می خواهید پیام را به‌صورت خودکار ارسال کنید</string>
+    <string name="scheduled_empty_message_1">سلام! راستی تولدت کی بود؟</string>
+    <string name="scheduled_empty_message_2">روز ۲۳ دسامبر</string>
+    <string name="scheduled_empty_message_3">تولدت مبارک! ببین چه دوست خوبیم، به یاد تولدتم</string>
+    <string name="scheduled_empty_message_3_timestamp">ارسال در ۲۳ دسامبر</string>
+    <string name="scheduled_options_title">پیام برنامه‌ریزی شده</string>
+    <string name="scheduled_title">برنامه‌ریزی شده</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"جستجو"</string>
+    <string name="settings_about_title">درباره QUIK</string>
+    <string name="settings_auto_delete">حذف خودکار پیام های قدیمی</string>
+    <string name="settings_auto_delete_dialog_hint">تعداد روزها</string>
+    <string name="settings_auto_delete_dialog_message">پیام ها پس از تعداد روز تعیین شده حذف می شوند</string>
+    <string name="settings_auto_delete_never">هرگز</string>
+    <string name="settings_auto_delete_warning">پیام های قدیمی به طور خودکار حذف شوند؟</string>
+    <string name="settings_auto_delete_warning_message">اگر ادامه دهید، اکنون %1$d پیام حذف خواهد شد</string>
+    <string name="settings_auto_emoji_title">شکلک خودکار</string>
+    <string name="settings_automatic_colors_title">رنگ مخاطب خودکار</string>
+    <string name="settings_black_title">حالت شب کامل</string>
+    <string name="settings_category_appearance">ظاهر</string>
+    <string name="settings_category_general">عمومی</string>
+    <string name="settings_category_qkreply">پاسخ سریع</string>
+    <string name="settings_delay_duration_hint">مدت زمان را وارد کنید (ثانیه)</string>
+    <string name="settings_delayed_title">ارسال با درنگ</string>
+    <string name="settings_delivery_summary">تأیید کن که پیام‌ها با موفقیت ارسال شدند</string>
+    <string name="settings_delivery_title">تأیید تحویل</string>
+    <string name="settings_logging_disabled">گزارش‌گیری اشکال‌زدایی غیرفعال است</string>
+    <string name="settings_logging_enabled">گزارش‌گیری اشکال‌زدایی فعال است</string>
+    <string name="settings_long_as_mms_summary">اگر پیام های متنی طولانی شما نتوانسته اند ارسال شوند یا به ترتیب اشتباه ارسال شوند ، می توانید به جای آنها پیام های MMS ارسال کنید. هزینه های اضافی ممکن است اعمال شود</string>
+    <string name="settings_long_as_mms_title">پیام های طولانی را به عنوان MMS ارسال کن</string>
+    <string name="settings_mms_size_title">فشرده سازی خودکار پیوست ها</string>
+    <string name="settings_mobile_summary">وقتی در حال ارسال پیام هستید فقط می توانید شماره تلفن را ببنید</string>
+    <string name="settings_mobile_title">فقط شماره های تلفن</string>
+    <string name="settings_night_end_title">زمان پایان</string>
+    <string name="settings_night_start_title">زمان آغاز</string>
+    <string name="settings_night_title">حالت شب</string>
+    <string name="settings_notification_action_1">دکمه ۱</string>
+    <string name="settings_notification_action_2">دکمه ۲</string>
+    <string name="settings_notification_action_3">دکمه ۳</string>
+    <string name="settings_notification_actions_title">اقدامات</string>
+    <string name="settings_notification_previews_title">پیش نمایش اعلان</string>
+    <string name="settings_notification_wake_title">صفحه بیدار</string>
+    <string name="settings_notifications_o_summary">لمس برای شخصی سازی</string>
+    <string name="settings_notifications_title">اعلان‌ها</string>
+    <string name="settings_qkreply_summary">پنجره پیام های جدید</string>
+    <string name="settings_qkreply_tap_dismiss_summary">برای بستن آن ، به بیرون پنجره ضربه بزنید</string>
+    <string name="settings_qkreply_tap_dismiss_title">برای رد کردن ضربه بزنید</string>
+    <string name="settings_qkreply_title">پاسخ سریع</string>
+    <string name="settings_ringtone_none">هیچی</string>
+    <string name="settings_ringtone_title">صدا</string>
+    <string name="settings_signature_summary">به انتهای پیام های خود یک امضا اضافه کنید</string>
+    <string name="settings_signature_title">امضا</string>
+    <string name="settings_swipe_actions">اقدامات کشیدن</string>
+    <string name="settings_swipe_actions_change">تغییر</string>
+    <string name="settings_swipe_actions_left">به چپ بکشید</string>
+    <string name="settings_swipe_actions_right">به راست بکشید</string>
+    <string name="settings_swipe_actions_summary">تنظیم کشیدن برای گفتگو</string>
+    <string name="settings_sync_summary">همگام‌سازی مجدد پیام‌ها با پایگاه‌داده بومی پیامک اندروید</string>
+    <string name="settings_sync_title">همگام‌سازی پیام‌ها</string>
+    <string name="settings_system_font_title">از فونت سیستم استفاده کن</string>
+    <string name="settings_text_size_title">اندازه قلم</string>
+    <string name="settings_theme_title">پوسته</string>
+    <string name="settings_unicode_summary">حذف کاراکترهای اضافه پیام ارسالی</string>
+    <string name="settings_unicode_title">حذف لهجه‌ها</string>
+    <string name="settings_version">نگارش %s</string>
+    <string name="settings_vibration_title">لرزش</string>
+    <string name="setup_next">ادامه</string>
+    <string name="setup_skip">رد شدن</string>
+    <string name="shortcut_compose_disabled_message">میانبر غیرفعال شد</string>
+    <string name="shortcut_compose_long_label">گفتگوی جدید</string>
+    <string name="shortcut_compose_short_label">نوشتن</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="theme_apply">اعمال کردن</string>
+    <string name="theme_hex">هگز</string>
+    <string name="theme_material">متریال</string>
+    <string name="title_archived">بایگانی شد</string>
+    <string name="title_compose">یک نام یا شماره را وارد کنید</string>
+    <string name="title_conversations">جستجو در صندوق ورودی…</string>
+    <string name="title_notification_prefs">اعلان‌ها</string>
+    <string name="title_settings">تنظیمات</string>
+    <string name="title_theme">پوسته</string>
+    <string name="toast_archived">گفتگوی بایگانی شده</string>
+    <string name="toast_copied">کپی شد</string>
+    <string name="toast_qksms_plus">باید نسخه پیشرفته را فعال کنید</string>
+    <string name="widget_loading">درحال بارگذاری…</string>
+    <string name="widget_more">مشاهده گفتگوهای بیشتر</string>
+</resources>

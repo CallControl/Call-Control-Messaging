@@ -1,0 +1,27 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.klinker.android.send_message" >
+4
+5    <uses-sdk android:minSdkVersion="23" />
+6
+7    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+7-->/Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:4:5-79
+7-->/Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:4:22-76
+8
+9    <application>
+9-->/Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:5:5-12:19
+10        <provider
+10-->/Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:7:9-11:46
+11            android:name="com.klinker.android.send_message.MmsFileProvider"
+11-->/Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:7:19-50
+12            android:authorities="${applicationId}.MmsFileProvider"
+12-->/Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:8:19-73
+13            android:enabled="true"
+13-->/Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:9:19-41
+14            android:exported="false"
+14-->/Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:11:19-43
+15            android:grantUriPermissions="true" />
+15-->/Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:10:19-53
+16    </application>
+17
+18</manifest>

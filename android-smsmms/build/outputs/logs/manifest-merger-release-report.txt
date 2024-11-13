@@ -1,0 +1,34 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:2:1-13:12
+	package
+		INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:4:22-76
+application
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:5:5-12:19
+provider#com.klinker.android.send_message.MmsFileProvider
+ADDED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:7:9-11:46
+	android:grantUriPermissions
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:10:19-53
+	android:enabled
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:9:19-41
+	android:authorities
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:8:19-73
+	android:exported
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:11:19-43
+	android:name
+		ADDED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml:7:19-50
+uses-sdk
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml
+INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sergeylaptiy/Develop/cc-messaging/android-smsmms/src/main/AndroidManifest.xml
